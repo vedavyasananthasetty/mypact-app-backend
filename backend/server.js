@@ -29,7 +29,7 @@ connectDB()
 //routes
 app.use('/images', express.static('public/images'))
 app.use(cors({
-  origin: ["http://localhost:3000/", "https://mypact-app.onrender.com"]
+  origin: ["http://localhost:3000/", "https://my-pact-app.onrender.com"]
 }))
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
